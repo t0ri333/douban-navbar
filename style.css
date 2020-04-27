@@ -1,0 +1,38 @@
+*, 
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; 
+}
+
+
+.logo img {
+  width: 184px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #edf4ed;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+
+
+}
+
+.nav-item {
+  color: #072;
+  display: inline-block;
+  padding: 10px 15px;
+}
