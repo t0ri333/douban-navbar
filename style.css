@@ -6,6 +6,9 @@
     box-sizing: inherit; 
 }
 
+body {
+  font: 16px Helvetica,Arial,sans-serif;
+}
 
 .logo img {
   width: 184px;
@@ -20,19 +23,32 @@ nav {
   display: flex;
   align-items: center;
   background-color: #edf4ed;
-  margin: 0;
+  padding: 12px;
 }
 
 .nav-links {
   display: flex;
   list-style: none;
   text-decoration: none;
-
-
+  margin-left: 3em;
 }
 
 .nav-item {
   color: #072;
   display: inline-block;
-  padding: 10px 15px;
+  margin-right: 20px;
+  /* padding: 10px 15px; */
+}
+
+li a:hover {
+  background-color: #072;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
 }
